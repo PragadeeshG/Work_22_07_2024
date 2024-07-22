@@ -1,0 +1,17 @@
+create table if not exists backlog_releases_controls_dates(
+backlog_release_indicator Integer not null,
+azure_story_creation_date varchar(255) null,
+work_item_number Integer null,
+azure_story_completion_date varchar(255) null,
+sit_start_date varchar(255) null,
+sit_completion_date varchar(255) null,
+uat_start_date varchar(255) null,
+uat_completion_date varchar(255) null,
+staging_start_date varchar(255) null,
+staging_completion_date varchar(255) null,
+backlog_release_date varchar(255) null,
+uvt_date varchar(255) null,
+creation_date varchar(255) null,
+modified_date varchar(255) null,
+entity_state varchar(255) null,
+constraint backlog_releases_controls_dates_pk primary key(backlog_release_indicator));
